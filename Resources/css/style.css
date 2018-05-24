@@ -35,8 +35,15 @@ text-decoration: none;
 color: rgb(100, 100, 100);
 }
 video {
-  width: 60%;
+  width: 100%;
   height: auto;
+  margin-bottom: 24px;
+}
+.grey {
+  background-color: lightgrey;
+}
+.grey_font {
+  color: #9b9b9b;
 }
 
 /* Menu Section */
@@ -59,9 +66,6 @@ video {
 .uppercase {
   text-transform: uppercase;
 }
-.grey {
-  color: #9b9b9b;
-}
 .nav {
   display: flex;
   justify-content: space-between;
@@ -83,7 +87,6 @@ header {
 width: 60%;
 height: auto;
 padding: 32px 24px;
-border: 2px solid red;
 }
 .col_a img {
   max-width:100%;
@@ -96,7 +99,6 @@ border: 2px solid red;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  border: 2px solid blue;
 }
 #start {
   border-radius: 0;
@@ -119,9 +121,6 @@ border: 2px solid red;
   display: flex;
   width: 100%;
 }
-/* .img {
-  width: 35%;
-} */
 .infobox img {
   width: 35%;
   height: 35%;
@@ -129,9 +128,6 @@ border: 2px solid red;
 }
 .infobox a {
   color: blue;
-}
-.grey {
-  background-color: lightgrey;
 }
 .info {
   display: flex;
@@ -144,7 +140,6 @@ border: 2px solid red;
 /* Courses Section */
 
 .courses {
-  border: 2px solid orange;
   background-color: lightgrey;
   padding: 32px 56px;
 }
@@ -159,7 +154,6 @@ border: 2px solid red;
   width: 100%;
 }
 .course_card {
-  border: 2px solid magenta;
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -172,4 +166,49 @@ border: 2px solid red;
 }
 .description {
   margin: 16px 24px;
+}
+
+/* Thesis Section */
+
+.thesis_contain {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.thesis h1 {
+  text-align: center;
+  margin-top: 32px;
+}
+.urban {
+  margin-top: 8px;
+}
+.thesis_contain .col_b {
+  justify-content: flex-start;
+}
+.info_thesis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+}
+
+/* Footer Section */
+footer {
+  padding-top: 16px;
+  margin-bottom: 32px;
+  border-top: rgb(25, 25, 25);
+}
+.copyright {
+  display: flex;
+  justify-content: space-between
+
+}
+.copyright span {
+  margin-left: 24px;
+}
+.copyright .links {
+  margin-right: 16px;
+}
+.copyright a {
+  padding: 0 8px;
 }
