@@ -45,8 +45,6 @@ video {
   background-color: #A9ACA9;
 }
 .grey_font {
-  /* color: #9b9b9b; */
-  /* color: #BFC3BA; */
   color: #939196;
 }
 
@@ -102,10 +100,9 @@ header .col_b {
 }
 .col_b {
   width: 40%;
-  /* height: auto; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 .start {
@@ -143,12 +140,12 @@ header .col_b {
 .infobox {
   display: flex;
   width: 100%;
-  /* height: 25%; */
+  height: 25%;
 }
 .infobox img {
   display: block;
   width: 35%;
-  height: 27%;
+  height: auto;
   margin: 16px;
 }
 .infobox a {
@@ -216,6 +213,17 @@ header .col_b {
   flex-direction: column;
   justify-content: center;
   width: 65%;
+}
+.thesis_contain .infobox {
+  width: 100%;
+  height: 35%;
+}
+
+.thesis_contain img {
+  display: block;
+  width: 35%;
+  height: auto;
+  margin: 16px;
 }
 
 /* Footer Section */
