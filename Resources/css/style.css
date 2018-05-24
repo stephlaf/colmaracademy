@@ -1,17 +1,19 @@
 body {
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Source sans pro', sans-serif;
+  background-color: #fff;
+  color: #282B28;
 }
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Source sans pro', sans-serif;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2.75rem;
   margin: 8px 0;
 }
 h2 {
-  font-family: 'Source sans pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   margin: 8px 0;
 }
 h3 {
@@ -40,10 +42,12 @@ video {
   margin-bottom: 24px;
 }
 .grey {
-  background-color: lightgrey;
+  background-color: #A9ACA9;
 }
 .grey_font {
-  color: #9b9b9b;
+  /* color: #9b9b9b; */
+  /* color: #BFC3BA; */
+  color: #939196;
 }
 
 /* Menu Section */
@@ -93,6 +97,9 @@ padding: 32px 24px;
   height: auto;
 
 }
+header .col_b {
+  padding-right: 80px;
+}
 .col_b {
   width: 40%;
   display: flex;
@@ -100,16 +107,24 @@ padding: 32px 24px;
   justify-content: center;
   align-items: flex-start;
 }
-#start {
+.start {
   border-radius: 0;
   font-family: 'Dosis', sans-serif;
   font-size: 1rem;
   font-weight: 300;
   margin: 12px 0;
   padding: 8px;
-  width: 400px;
-  background-color: grey;
-  color: white;
+  width: 350px;
+  background-color: #282B28;;
+  color: #f0f0f0;
+  border: 0px
+}
+.start:hover {
+  background-color: #886f68;;
+  color: #fff;
+}
+.start h6 {
+  text-align: center;
 }
 
 /* Infoz Section */
@@ -117,17 +132,25 @@ padding: 32px 24px;
 .infoz {
   display: flex;
 }
+.infoz .col_a {
+  border-right: 0.25px solid lightgrey;
+  border-width: thin;
+}
+.infoz .col_b {
+  /* background-color: lightgrey; */
+}
 .infobox {
   display: flex;
   width: 100%;
+  /* background-color: white; */
 }
 .infobox img {
   width: 35%;
-  height: 35%;
+  height: auto;
   margin: 16px;
 }
 .infobox a {
-  color: blue;
+  color: #628395;
 }
 .info {
   display: flex;
@@ -184,6 +207,7 @@ padding: 32px 24px;
 }
 .thesis_contain .col_b {
   justify-content: flex-start;
+  padding-top: 32px;
 }
 .info_thesis {
   display: flex;
@@ -195,8 +219,10 @@ padding: 32px 24px;
 /* Footer Section */
 footer {
   padding-top: 16px;
-  margin-bottom: 32px;
-  border-top: rgb(25, 25, 25);
+  margin-bottom: 48px;
+  border-top: 0.5px solid #939196;
+  border-width: thin;
+  font-size: 16px;
 }
 .copyright {
   display: flex;
@@ -205,6 +231,7 @@ footer {
 }
 .copyright span {
   margin-left: 24px;
+
 }
 .copyright .links {
   margin-right: 16px;
