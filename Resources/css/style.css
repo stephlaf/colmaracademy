@@ -1,14 +1,34 @@
 body {
   font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
 }
 h1 {
-  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 8px 0;
 }
 h2 {
-  1.75rem;
+  font-family: 'Source sans pro', sans-serif;
+  font-weight: bold;
+  font-size: 1.75rem;
+  margin: 8px 0;
 }
 h3 {
-  1.5rem
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 16px 0;
+}
+h5 {
+  margin: 8px 0;
+}
+p {
+  font-family: 'Dosis', sans-serif;
+  margin: 6px 0;
+  line-height: 1.8rem;
 }
 a {
 text-decoration: none;
@@ -58,19 +78,95 @@ header {
   width: 100%;
   background-color: lightgrey;
   display: flex;
-  justify-content: space-between;
 }
 .col_a {
-/* width: 60%; */
-/* height: auto; */
+width: 60%;
+height: auto;
+padding: 32px 24px;
+border: 2px solid red;
 }
 .col_a img {
+  max-width:100%;
+  height: auto;
 
 }
 .col_b {
-  /* width: 40%; */
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  border: 2px solid blue;
+}
+#start {
+  border-radius: 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 12px 0;
+  padding: 8px;
+  width: 400px;
+  background-color: grey;
+  color: white;
+}
+
+/* Infoz Section */
+
+.infoz {
+  display: flex;
+}
+.infobox {
+  display: flex;
+  /* width: 100%; */
+}
+.infobox img {
+  width: 35%;
+  height: 35%;
+  margin: 16px;
+}
+.infobox a {
+  color: blue;
+}
+.grey {
+  background-color: lightgrey;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  margin: 12px;
+}
+
+/* Courses Section */
+
+.courses {
+  border: 2px solid orange;
+  background-color: lightgrey;
+  padding: 32px 56px;
+}
+.courses h1 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.course_card {
+  border: 2px solid magenta;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 16px;
+  width: 30%;
+}
+.course_card img {
+  width: 100%;
+  height: auto;
+}
+.description {
+  margin: 16px 24px;
 }
