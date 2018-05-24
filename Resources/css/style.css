@@ -102,6 +102,7 @@ header .col_b {
 }
 .col_b {
   width: 40%;
+  /* height: auto; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -110,7 +111,7 @@ header .col_b {
 .start {
   border-radius: 0;
   font-family: 'Dosis', sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 300;
   margin: 12px 0;
   padding: 8px;
@@ -122,6 +123,9 @@ header .col_b {
 .start:hover {
   background-color: #886f68;;
   color: #fff;
+}
+.col_b a {
+  transition: all 0.75s linear;
 }
 .start h6 {
   text-align: center;
@@ -136,17 +140,15 @@ header .col_b {
   border-right: 0.25px solid lightgrey;
   border-width: thin;
 }
-.infoz .col_b {
-  /* background-color: lightgrey; */
-}
 .infobox {
   display: flex;
   width: 100%;
-  /* background-color: white; */
+  /* height: 25%; */
 }
 .infobox img {
+  display: block;
   width: 35%;
-  height: auto;
+  height: 27%;
   margin: 16px;
 }
 .infobox a {
