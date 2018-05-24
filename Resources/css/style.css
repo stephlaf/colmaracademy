@@ -117,8 +117,11 @@ border: 2px solid red;
 }
 .infobox {
   display: flex;
-  /* width: 100%; */
+  width: 100%;
 }
+/* .img {
+  width: 35%;
+} */
 .infobox img {
   width: 35%;
   height: 35%;
