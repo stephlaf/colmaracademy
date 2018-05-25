@@ -97,6 +97,7 @@ padding: 32px 24px;
 }
 header .col_b {
   padding-right: 80px;
+  justify-content: center;
 }
 .col_b {
   width: 40%;
