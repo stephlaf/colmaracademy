@@ -60,7 +60,6 @@ video {
   justify-content: flex-start;
   align-items: center;
   margin-left: 1.333rem;
-  /* height: 1.777rem; */
 }
 .logobox img {
   margin-right: 0.5rem;
@@ -77,6 +76,25 @@ video {
 .links {
   padding: 0 8px;
 }
+@media only screen and (max-width:464px) {
+  .logobox span {
+    display: none;
+  }
+  .menu .nav {
+    display: none;
+  }
+  .menu .nav_mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 16px;
+  }
+}
+@media only screen and (min-width: 465px) {
+  .menu .nav_mobile {
+    display: none;
+  }
+}
 
 /* Header Section */
 
@@ -89,6 +107,7 @@ header {
 width: 60%;
 height: auto;
 padding: 32px 24px;
+border: 1px solid orange;
 }
 .col_a img {
   max-width:100%;
@@ -105,6 +124,7 @@ header .col_b {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  border: 1px solid purple;
 }
 .start {
   border-radius: 0;
@@ -134,6 +154,31 @@ header .col_b {
 .start h6 {
   text-align: center;
 }
+@media only screen and (max-width: 464px) {
+  header {
+    flex-direction: column;
+  }
+  .col_a {
+    width: 100%;
+    padding: 32px 1px;
+  }
+  .col_b {
+    width: 100%;
+    padding-left: 16px;
+  }
+  header h1 {
+    padding-bottom: 24px;
+  }
+  header h2 {
+    padding-bottom: 16px;
+    line-height: 2rem;;
+  }
+  .start {
+    align-self: center;
+    margin-bottom: 32px;
+    padding: 8px 0;
+  }
+}
 
 /* Infoz Section */
 
@@ -153,9 +198,8 @@ header .col_b {
 .img {
   width: 35%;
   height: auto;
-  /* padding-top: 100%; */
-  /* margin: 16px; */
-  border: 2px solid red;
+  margin: 16px;
+  border: 1px solid red;
 }
 .img img {
   width: 100%;
@@ -163,29 +207,19 @@ header .col_b {
 }
 #orientation {
   background-image: url("../images/information-orientation.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  /* width: 100%; */
 }
 #campus {
   background-image: url("../images/information-campus.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 #guest {
   background-image: url("../images/information-guest-lecture.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
-/* .img {
-
-} */
-/* .img{
-    display: block;
-    width: 35%;
-    height: auto;
-    margin: 16px;
-} */
 .infobox a {
   color: #628395;
 }
