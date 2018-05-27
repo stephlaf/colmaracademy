@@ -155,7 +155,7 @@ header .col_b {
   text-align: center;
 }
 @media only screen and (max-width: 464px) {
-  header {
+  header, .infoz, .cards, .infobox {
     flex-direction: column;
   }
   .col_a {
@@ -260,6 +260,22 @@ header .col_b {
 }
 .description {
   margin: 16px 24px;
+}
+
+@media only screen and (max-width: 464px) {
+  .courses {
+    background-color: #fff;
+  }
+  .course_card{
+    display: none;
+  }
+  .course_card_mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    margin: 16px;
+    width: 30%;
+  }
 }
 
 /* Thesis Section */
