@@ -122,6 +122,12 @@ header .col_b {
   background-color: #886f68;;
   color: #fff;
 }
+.start:active {
+  border: 0.5px solid white;
+}
+.start:visited {
+  /* color: #628395; */
+}
 .col_b a {
   transition: all 0.75s linear;
 }
@@ -142,13 +148,44 @@ header .col_b {
   display: flex;
   width: 100%;
   height: 25%;
+  border: 2px solid blue;
 }
-.infobox img {
-  display: block;
+.img {
   width: 35%;
   height: auto;
-  margin: 16px;
+  /* padding-top: 100%; */
+  /* margin: 16px; */
+  border: 2px solid red;
 }
+.img img {
+  width: 100%;
+  height: auto;
+}
+#orientation {
+  background-image: url("../images/information-orientation.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* width: 100%; */
+}
+#campus {
+  background-image: url("../images/information-campus.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#guest {
+  background-image: url("../images/information-guest-lecture.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/* .img {
+
+} */
+/* .img{
+    display: block;
+    width: 35%;
+    height: auto;
+    margin: 16px;
+} */
 .infobox a {
   color: #628395;
 }
