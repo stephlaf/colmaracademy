@@ -94,7 +94,6 @@ padding: 32px 24px;
 .col_a img {
   max-width:100%;
   height: auto;
-
 }
 header .col_b {
   padding-right: 80px;
@@ -125,9 +124,6 @@ header .col_b {
 }
 .start:active {
   border: 0.5px solid white;
-}
-.start:visited {
-  /* color: #628395; */
 }
 .col_b a {
   transition: all 0.75s linear;
@@ -225,7 +221,6 @@ header .col_b {
   width: 100%;
   height: 35%;
 }
-
 .thesis_contain img {
   display: block;
   width: 35%;
@@ -244,11 +239,9 @@ footer {
 .copyright {
   display: flex;
   justify-content: space-between
-
 }
 .copyright span {
   margin-left: 24px;
-
 }
 .copyright .links {
   margin-right: 16px;
@@ -298,7 +291,6 @@ footer {
   .nav_mobile a {
     font-size: 1.3em;
   }
-
 
 /* Header Section Media Query */
 
